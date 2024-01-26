@@ -609,3 +609,16 @@ background-color: #31d0aa;
     background-color: #fcfcfc;
     border-radius: 4px;
 }
+
+.modal-label{
+    display: block;
+    color: #8e8f99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    position: relative;
+}
