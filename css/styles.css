@@ -646,7 +646,6 @@ border-radius: 4px;
     top: 0;
     left: 0;
     background-color: rgba(46, 47, 66, 0.40);
-
     position: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -737,10 +736,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 .modal-input:focus{
     border-color: #4D5AE5;
-}
-.modal-icon:focus{
     fill: #4D5AE5;
 }
+
 
 .modal-icon{
 position: absolute;
@@ -817,7 +815,7 @@ background-color: #4d5ae5;
 border:none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.visually-hidden :checked + .check-icon-field span{
+.visually-hidden:checked + span{
     background-color: #404bbf;
     border:none;
     fill: #f4f4fd;
